@@ -5,6 +5,8 @@ version: '0.2'
 work_dir: .
 design_root_dir: ..
 simulations: []
-source_files: []
+source_files:
+  - language: verilog
+    path: ..\classes\class_constructor\class_constructor.sv
 library_search_paths:
   - $STD_LIBS\ieee93
