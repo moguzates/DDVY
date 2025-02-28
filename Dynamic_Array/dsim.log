@@ -1,0 +1,62 @@
+=N:[UsageMeter (2025-02-27 11:09:05 Türkiye Standart Saati)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    dynamic_array
+  Found 4 unique specialization(s) of 4 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: (none) 
+Simulation time precision is 1ns.
+  [1/5] module $root: 128 functions, 289 basic blocks
+  [4/5] module dynamic_array: 2 functions, 35 basic blocks
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+Before Memory Allocation
+	Size of d_array1 0
+	Size of d_array2 0
+After Memory Allocation
+	Size of d_array1 4
+	Size of d_array2 6
+----d_array1 Values are----
+	d_array1[0] = 0
+	d_array1[1] = 1
+	d_array1[2] = 2
+	d_array1[3] = 3
+---------------------------
+----d_array2 Values are----
+	d_array2[0] = 0
+	d_array2[1] = 1
+	d_array2[2] = 2
+	d_array2[3] = 3
+	d_array2[4] = 4
+	d_array2[5] = 5
+---------------------------
+Size of Array d_array1 6
+----- d_array1 Values are -----
+	d_aaray1[0] = 0
+	d_aaray1[1] = 0
+	d_aaray1[2] = 0
+	d_aaray1[3] = 0
+	d_aaray1[4] = 0
+	d_aaray1[5] = 0
+After Array Delete
+	Size of d_array1 0
+	Size of d_array2 0
+=T:Event queue exhausted - terminating run.
+Simulation statistics:
+    End time: 0 ticks
+    Events processed: 1
+      Fast events: 0
+    Run time: 0.05 sec
+    Garbage collections: 1
+    Terminal heap size: 262144
+    Total bytes allocated: 4320
+  Altair DSim version: 2025.0.0000 (b:S #c:32 h:e6a01125e5 os:msys2_)
+  Random seed: (defaulted to 1)

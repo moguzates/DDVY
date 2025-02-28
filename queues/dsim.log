@@ -1,0 +1,40 @@
+=N:[UsageMeter (2025-02-27 15:31:02 Türkiye Standart Saati)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    queues_array
+  Found 4 unique specialization(s) of 4 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: (none) 
+Simulation time precision is 1ns.
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+Queue entries are '{7, 3, 1, 0, 8}
+Before Queue size is 5
+Index 4 is deleted
+After Queue size is 4
+Queue entries are '{7, 3, 1, 0}
+
+Queue entries are '{7, 3, 1, 0}
+Before Queue size is 4
+Index 1 is deleted
+After Queue size is 3
+Queue entries are '{7, 1, 0}
+=T:Event queue exhausted - terminating run.
+Simulation statistics:
+    End time: 0 ticks
+    Events processed: 1
+      Fast events: 0
+    Run time: 0.04 sec
+    Garbage collections: 1
+    Terminal heap size: 262144
+    Total bytes allocated: 4240
+  Altair DSim version: 2025.0.0000 (b:S #c:32 h:e6a01125e5 os:msys2_)
+  Random seed: (defaulted to 1)

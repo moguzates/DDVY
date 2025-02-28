@@ -1,0 +1,41 @@
+=N:[UsageMeter (2025-02-26 14:45:45 Türkiye Standart Saati)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    enum_datatype
+  Found 4 unique specialization(s) of 4 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: (none) 
+Simulation time precision is 1ns.
+  [1/5] module $root: 98 functions, 229 basic blocks
+  [4/5] module enum_datatype: 16 functions, 89 basic blocks
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:Starting event scheduler...
+ first_set first color is red, value = 0, time=0
+ first_set last color is  black,  value = 11, time=10
+ second_set color is  black,  value = 11
+ second_set color is  yellow,  value = 5
+ second_set color is  red,  value = 0
+number of members in alphabets is    7
+default first number in alphabets is a, value is 0
+alphabets member is b, value is 1
+alphabets member is g, value is 6
+alphabets member is f, value is 5
+=T:Event queue exhausted - terminating run.
+Simulation statistics:
+    End time: 10 ticks
+    Events processed: 2
+      Fast events: 0
+    Run time: 0.04 sec
+    Garbage collections: 1
+    Terminal heap size: 262144
+    Total bytes allocated: 4736
+  Altair DSim version: 2025.0.0000 (b:S #c:32 h:e6a01125e5 os:msys2_)
+  Random seed: (defaulted to 1)
