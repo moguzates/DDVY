@@ -4,12 +4,7 @@
 version: '0.2'
 work_dir: .
 design_root_dir: ..
-simulations:
-  - name: sim
-    options: |
-      -top work.argument_passing
-source_files:
-  - language: verilog
-    path: argument_passing.sv
+simulations: []
+source_files: []
 library_search_paths:
   - $STD_LIBS\ieee93
