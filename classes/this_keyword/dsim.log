@@ -1,4 +1,4 @@
-=N:[UsageMeter (2025-02-28 15:26:10 Türkiye Standart Saati)] usage server initial connection
+=N:[UsageMeter (2025-02-28 15:46:43 Türkiye Standart Saati)] usage server initial connection
 =N:[License] 
 Licensed for Altair DSim Cloud.
 =N:[License] New lease granted.
@@ -6,29 +6,35 @@ Analyzing...
 Elaborating...
   Top-level modules:
     $unit
-    sv_class_ex
+    sv_constructor
   Found 4 unique specialization(s) of 4 design element(s).
 Optimizing...
 Building models...
 PLI/VPI access: (none) 
 Simulation time precision is 1ns.
   [1/5] module $root: 98 functions, 229 basic blocks
-  [3/5] CU scope $unit: 5 functions, 10 basic blocks
-  [4/5] module sv_class_ex: 2 functions, 12 basic blocks
+  [2/5] module $pkgs: 1 functions, 2 basic blocks
+  [3/5] CU scope $unit: 4 functions, 8 basic blocks
+  [4/5] module sv_constructor: 2 functions, 6 basic blocks
+  [5/5] package std: 24 functions, 66 basic blocks
 Linking image.so...
 Using default typical min/typ/max.
 =S:Begin run-time elaboration and static initialization...
 =N:Starting event scheduler...
-	class_1 :: value of x = 10
-	class_2 :: value of x = 20
+---------------------------------------------------------
+	 addr  = 10
+	 data  = ff
+	 write = 1
+	 pkt_type  = GOOD_PKT
+---------------------------------------------------------
 =T:Event queue exhausted - terminating run.
 Simulation statistics:
     End time: 0 ticks
     Events processed: 1
       Fast events: 0
-    Run time: 0.05 sec
+    Run time: 0.07 sec
     Garbage collections: 1
     Terminal heap size: 262144
-    Total bytes allocated: 4336
+    Total bytes allocated: 3968
   Altair DSim version: 2025.0.0000 (b:S #c:32 h:e6a01125e5 os:msys2_)
   Random seed: (defaulted to 1)

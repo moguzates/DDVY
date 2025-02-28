@@ -1,28 +1,33 @@
 class sv_class;
-  //class properties
-  int x;
+int x; //class properties
 
-  //method-1
-  task set(int i);
-    x = i;
-  endtask
+//method-1
+task set(int i);
+x=i;
+endtask
 
-  //method-2
-  function int get();
-    return x;
-  endfunction
+//method-2
+function int get();
+return x;    
+endfunction
 endclass
 
 module sv_class_ex;
- sv_class class_1; //Creating Handle
+sv_class class_1; //creating handle
+    
+    initial begin
+    automatic sv_class class_2 = new(); //creating handle and object. Automatic used for dsim.
+    class_1 = new(); //creating object for the handle
 
-  initial begin
-    automatic sv_class class_2 = new(); //Creating handle and Object  //automatic used cause of dsim
-    class_1 = new(); //Creating Object for the Handle
-    //Accessing Class methods
+    //accessing class methods 
     class_1.set(10);
-    class_2.set(20);
-    $display("\tclass_1 :: Value of x = %0d",class_1.get());
-    $display("\tclass_2 :: Value of x = %0d",class_2.get());
-  end
+    class_2.set(20); //i değeri bu yüzden var her atamada farklı bir değer alabiliyor.
+    $display("\tclass_1 :: value of x = %0d", class_1.get());
+    $display("\tclass_2 :: value of x = %0d", class_2.get());
+    end
+
 endmodule
+
+
+
+
