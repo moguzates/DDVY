@@ -1,9 +1,9 @@
 class packet;
   
   //class properties
-  bit [31:0] addr;
-  bit [31:0] data;
-  bit   write;
+  bit [31:0]  addr;
+  bit [31:0]  data;
+  bit        write;
   string  pkt_type;
   
   //constructor
@@ -16,12 +16,14 @@ class packet;
   
   //method to display class prperties
   function void display();
+
     $display("---------------------------------------------------------");
-    $display("\t addr  = %0h",addr);
-    $display("\t data  = %0h",data);
-    $display("\t write = %0h",write);
+    $display("\t addr      = %0h",addr    );
+    $display("\t data      = %0h",data    );
+    $display("\t write     = %0h",write   );
     $display("\t pkt_type  = %0s",pkt_type);
     $display("---------------------------------------------------------");
+
   endfunction
   
 endclass
