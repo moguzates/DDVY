@@ -5,10 +5,10 @@ version: '0.2'
 work_dir: .
 design_root_dir: C:\Users\Mustafa\Desktop\DDVY\randomization
 simulations:
-  - name: sim
+  - name: 'sim1 '
     options: '-top work.system_funcations'
 source_files:
   - language: verilog
-    path: randomization\randomization.sv
+    path: randomization.sv
 library_search_paths:
   - $STD_LIBS\ieee93

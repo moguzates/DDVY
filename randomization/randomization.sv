@@ -2,9 +2,7 @@ module system_funcations;
   bit [31:0] addr1;
   bit [31:0] addr2;
   bit [64:0] addr3;
-  bit [31:0] data ;
-
-
+  bit [31:0] data;
   initial begin
     addr1 = $urandom();
     addr2 = $urandom(89);
