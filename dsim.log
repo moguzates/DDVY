@@ -1,4 +1,4 @@
-=N:[UsageMeter (2025-03-03 13:47:50 Türkiye Standart Saati)] usage server initial connection
+=N:[UsageMeter (2025-03-05 15:45:50 Türkiye Standart Saati)] usage server initial connection
 =N:[License] 
 Licensed for Altair DSim Cloud.
 =N:[License] New lease granted.
@@ -6,50 +6,26 @@ Analyzing...
 Elaborating...
   Top-level modules:
     $unit
-    class_assignment
+    system_funcations
   Found 4 unique specialization(s) of 4 design element(s).
 Optimizing...
 Building models...
 PLI/VPI access: (none) 
 Simulation time precision is 1ns.
-  [1/5] module $root: 98 functions, 229 basic blocks
-  [2/5] module $pkgs: 1 functions, 2 basic blocks
-  [3/5] CU scope $unit: 4 functions, 8 basic blocks
-  [4/5] module class_assignment: 2 functions, 14 basic blocks
-  [5/5] package std: 24 functions, 66 basic blocks
 Linking image.so...
 Using default typical min/typ/max.
 =S:Begin run-time elaboration and static initialization...
 =N:Starting event scheduler...
-	****  calling pkt_1 display  ****
----------------------------------------------------------
-	 addr  = 16
-	 data  = ff
-	 write = 1
-	 pkt_type  = GOOD_PKT
----------------------------------------------------------
-	****  calling pkt_2 display  ****
----------------------------------------------------------
-	 addr  = 16
-	 data  = ff
-	 write = 1
-	 pkt_type  = GOOD_PKT
----------------------------------------------------------
-	****  calling pkt_1 display  ****
----------------------------------------------------------
-	 addr  = 171
-	 data  = ff
-	 write = 1
-	 pkt_type  = BAD_PKT
----------------------------------------------------------
+addr1=1289791526, addr2=3477341612, addr3=3321111618120866694, data=2386404268
+addr1=22, addr2=18, addr3=26
 =T:Event queue exhausted - terminating run.
 Simulation statistics:
     End time: 0 ticks
     Events processed: 1
       Fast events: 0
-    Run time: 0.07 sec
+    Run time: 0.04 sec
     Garbage collections: 1
     Terminal heap size: 262144
-    Total bytes allocated: 4064
+    Total bytes allocated: 4000
   Altair DSim version: 2025.0.0000 (b:S #c:32 h:e6a01125e5 os:msys2_)
   Random seed: (defaulted to 1)
